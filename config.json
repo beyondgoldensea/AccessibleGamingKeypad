@@ -1,0 +1,200 @@
+{
+    "buttons": [
+        {
+            "keys": ["w", "a"],
+            "position": [1, 41],
+            "script": null
+        },
+        {
+            "keys": "w",
+            "position": [36, 41],
+            "script": null
+        },
+        {
+            "keys": ["w", "d"],
+            "position": [56, 41],
+            "script": null
+        },
+        {
+            "keys": "a",
+            "position": [16, 71],
+            "script": null
+        },
+        {
+            "keys": "s",
+            "position": [36, 71],
+            "script": null
+        },
+        {
+            "keys": "d",
+            "position": [56, 71],
+            "script": null
+        },
+        {
+            "keys": ["s", "a"],
+            "position": [1, 101],
+            "script": null
+        },
+        {
+            "keys": ["s", "d"],
+            "position": [56, 101],
+            "script": null
+        },
+        {
+            "keys": "s",
+            "position": [36, 101],
+            "script": null
+        },
+        {
+            "keys": "z",
+            "position": [96, 71],
+            "script": null
+        },
+        {
+            "keys": "x",
+            "position": [116, 71],
+            "script": null
+        },
+        {
+            "keys": "f",
+            "position": [96, 41],
+            "script": null
+        },
+        {
+            "keys": "g",
+            "position": [116, 41],
+            "script": null
+        },
+        {
+            "keys": "c",
+            "position": [96, 101],
+            "script": null
+        },
+        {
+            "keys": "v",
+            "position": [116, 101],
+            "script": null
+        },
+        {
+            "keys": "q",
+            "position": [96, 11],
+            "script": null
+        },
+        {
+            "keys": "r",
+            "position": [116, 11],
+            "script": null
+        },
+        {
+            "keys": "e",
+            "position": [136, 11],
+            "script": null
+        },
+        {
+            "keys": "t",
+            "position": [156, 11],
+            "script": null
+        },
+        {
+            "keys": ["u", "h"],
+            "position": [136, 41],
+            "script": null
+        },
+        {
+            "keys": "u",
+            "position": [171, 41],
+            "script": null
+        },
+        {
+            "keys": ["u", "j"],
+            "position": [191, 41],
+            "script": null
+        },
+        {
+            "keys": "h",
+            "position": [151, 71],
+            "script": null
+        },
+        {
+            "keys": "n",
+            "position": [171, 71],
+            "script": null
+        },
+        {
+            "keys": "j",
+            "position": [191, 71],
+            "script": null
+        },
+        {
+            "keys": ["n", "h"],
+            "position": [136, 101],
+            "script": null
+        },
+        {
+            "keys": ["n", "j"],
+            "position": [191, 101],
+            "script": null
+        },
+        {
+            "keys": "n",
+            "position": [171, 101],
+            "script": null
+        },
+        {
+            "keys": "up",
+            "position": [261, 41],
+            "script": null
+        },
+        {
+            "keys": "left",
+            "position": [221, 71],
+            "script": null
+        },
+        {
+            "keys": "down",
+            "position": [251, 71],
+            "script": null
+        },
+        {
+            "keys": "right",
+            "position": [291, 71],
+            "script": null
+        },
+        {
+            "keys": "0",
+            "position": [1, 11],
+            "script": null
+        },
+        {
+            "keys": "1",
+            "position": [21, 11],
+            "script": null
+        },
+        {
+            "keys": "2",
+            "position": [41, 11],
+            "script": null
+        }
+    ],
+    "scripts": {
+        "script1": [
+            {
+                "action": "press",
+                "keys": ["a", "a", "a", "a", "a"],
+                "delay": 100
+            }
+        ],
+        "script2": [
+            {
+                "action": "press",
+                "keys": ["b"]
+            }
+        ]
+    },   
+    "window": {
+        "window_height": 150,
+        "window_width": 350,
+        "window_x": 230,
+        "window_y": 830
+    }
+}
