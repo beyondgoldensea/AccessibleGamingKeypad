@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Accessible Gaming Keypad
 
 The Accessible Gaming Keypad is a Python-based program designed to provide an interactive, user-friendly virtual keyboard interface for gaming. It is specifically tailored towards enhancing accessibility and can be used in a range of application scenarios.
@@ -41,4 +40,3 @@ To run the program, ensure that Python and the required libraries (Tkinter, pynp
 =======
 # AccessibleGamingKeypad
 Provides a user-friendly virtual keyboard interface for gaming, enabling users to interact with games in a barrier-free and immersive manner.
->>>>>>> 8bd5517 (Initial commit)
