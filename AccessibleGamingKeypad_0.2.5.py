@@ -3,17 +3,16 @@ import time
 import tkinter as tk
 from pynput.keyboard import Controller, Key
 import win32gui, win32con
-import sys
 import os
+import sys
 
-# 获取当前执行文件的路径
+# Determine if we've been frozen into an executable
 if getattr(sys, 'frozen', False):
-    application_path = sys._MEIPASS
+    # If we are, use the executable's directory
+    config_path = os.path.join(os.path.dirname(sys.executable), 'config.json')
 else:
-    application_path = os.path.dirname(os.path.abspath(__file__))
-
-# 使用这个路径构建配置文件的路径
-config_path = os.path.join(application_path, 'config.json')
+    # If we aren't, use the script's directory
+    config_path = os.path.join(os.path.dirname(__file__), 'config.json')
 
 class KeyboardButton(tk.Button):
     def __init__(self, master, key, x, y, script=None, *args, **kwargs):
