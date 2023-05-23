@@ -79,7 +79,9 @@ root.overrideredirect(True)
 scripts = {name: make_script(config) for name, config in config["scripts"].items()}
 
 def get_key(key_str):
-    if key_str == "up":
+    if isinstance(key_str, list):
+        return tuple(get_key(k) for k in key_str)
+    elif key_str == "up":
         return Key.up
     elif key_str == "down":
         return Key.down
