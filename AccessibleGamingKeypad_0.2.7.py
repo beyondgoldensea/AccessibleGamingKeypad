@@ -89,6 +89,10 @@ def get_key(key_str):
         return Key.left
     elif key_str == "right":
         return Key.right
+    elif key_str == "home":
+        return Key.home
+    elif key_str == "end":
+        return Key.end
     else:
         return key_str
 
@@ -113,23 +117,5 @@ def set_no_focus():
                            win32gui.GetWindowLong(hwnd, win32con.GWL_EXSTYLE) | win32con.WS_EX_NOACTIVATE)
 
 root.after(1, set_no_focus)
-
-# 使窗口可移动
-def start_move(event):
-    root.x = event.x_root
-    root.y = event.y_root
-
-def stop_move(event):
-    root.x = None
-    root.y = None
-
-def do_move(event):
-    dx = event.x_root - root.x
-    dy = event.y_root - root.y
-    root.geometry(f"+{root.winfo_x() + dx}+{root.winfo_y() + dy}")
-
-root.bind("<ButtonPress-1>", start_move)
-root.bind("<ButtonRelease-1>", stop_move)
-root.bind("<B1-Motion>", do_move)
 
 root.mainloop()

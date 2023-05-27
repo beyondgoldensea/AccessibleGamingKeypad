@@ -161,6 +161,16 @@
             "script": null
         },
         {
+            "keys": "end",
+            "position": [221, 41],
+            "script": null
+        },
+        {
+            "keys": "home",
+            "position": [221, 11],
+            "script": null
+        },
+        {
             "keys": "0",
             "position": [1, 11],
             "script": null
@@ -194,7 +204,7 @@
     "window": {
         "window_height": 150,
         "window_width": 350,
-        "window_x": 230,
-        "window_y": 830
+        "window_x": 290,
+        "window_y": 1030
     }
 }
